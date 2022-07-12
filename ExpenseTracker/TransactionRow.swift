@@ -16,7 +16,7 @@ struct TransactionRow: View {
 //            MARK: Transaction Category Icon
             
             RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .fill(Color.icon)
+                .fill(Color.icon.opacity(0.3))
                         .frame(width: 44, height: 44)
                         .overlay {
                             FontIcon.text(.awesome5Solid(code: transaction.icon), fontsize: 24, color: Color.icon)
