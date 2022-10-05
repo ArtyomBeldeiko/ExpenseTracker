@@ -70,6 +70,7 @@ struct ContentView_Previews: PreviewProvider {
         transactionListVM.transactions = transactionListPreviewData
         return transactionListVM
     }()
+    
     static var previews: some View {
         Group {
             ContentView()

@@ -72,6 +72,7 @@ final class TransactionListViewModel: ObservableObject {
             sum = sum.roundedTo2Digits()
             cumulativeSum.append((date.formatted(), sum))
         }
+        
         return cumulativeSum
     }
 }
